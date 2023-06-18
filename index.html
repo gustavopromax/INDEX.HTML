@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="tarea.CSS">
+    <script src="tarea.js"></script>
+    <title>Comparación de números y verificación de visibilidad</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+    <h1>COMPARACION DE NUMEROS</h1>
+    <form>
+      <label for="num1">PRIMER NUMERO:</label>
+      <input type="number" id="num1">
+      <br>
+      <label for="num2">SEGUNDO NUMERO:</label>
+      <input type="number" id="num2">
+      <br>
+      <button onclick="compararNumeros()">Comparar</button>
+    </form>
+    <div id="resultado1"></div>
+  </div>
+
+  <div class="container">
+    <h1>VERIFICACION DE DIVISIBILIDAD</h1>
+    <form>
+      <label for="num">INGRESE EL NUMERO:</label>
+      <input type="number" id="num">
+      <br>
+      <button onclick="verificarVisibilidad()">Verificar</button>
+    </form>
+    <div id="resultado2"></div>
+  </div>
+</body>
+</html>

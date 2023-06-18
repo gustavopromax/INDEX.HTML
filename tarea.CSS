@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/cemento-fondo-textura-pared-hormigon-oscuro-lleno-manchas-aranazos_493325-2155.jpg);
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    padding: 50px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #fa7743;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: rgb(5, 5, 41);
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px;
+    border-radius: 7px;
+    background-color: #ffd500;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: #eb5555;
+  }
+  
+  #resultado1, #resultado2 {
+    margin-top: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
